@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&family=Bree+Serif&family=Cookie&family=Courgette&family=Dancing+Script&family=Great+Vibes&family=Josefin+Sans:wght@500&family=Lobster&family=Lobster+Two&family=Pacifico&family=Poppins&family=Public+Sans:wght@600&family=Roboto:wght@500&family=Zilla+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.head .menu-li{
+    font-family: 'Public Sans', sans-serif;
+}
+
+.swiper {
+    width: 80%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+@media (min-width: 320px) and (max-width: 768px){
+    .head .head-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .head .logo-item{
+        width: 150px;
+    }
+    .head .menu-item-2{
+        display: none;
+    }
+    .head .close-button{
+        display: block;
+    }
+    /* digital */
+    .digital{
+        padding: 10px;
+    }
+    .digital .digital-item{
+        width: 100%;
+    }
+    .digital .product{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .digital .product-item{
+        width: 300px;
+        padding: 30px 0;
+    }
+    /* banner */
+    .banner{
+        margin-top: 83px!important;
+    }
+    /* explore */
+    .explore{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .explore .explore-item{
+        width: 100%;
+    }
+    .explore .explore-item2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .explore .explore-box{
+        width: 300px;
+        margin-top: 15px;
+    }
+    /* card */
+    .card .card-content{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .card .card-text{
+        font-size: 25px;
+        padding: 10px;
+    }
+    /* sliede */
+    .slide .slide-item{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .slide .swiper{
+        width: 100%;
+    }
+    .slide .search-lg{
+        font-size: 13px;
+    }
+    .slide .search{
+        padding: 5px;
+        font-size: 10px;
+    }
+    /* footer */
+    .footer .footer-text{
+        font-size: 12px;
+    }
+    .footer .footer-item3{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+    .footer .footer-hizonetal, .footer .footer-hizonetal2, .footer .footer-hizonetal3, .footer .footer-hizonetal4{
+        width: 100%;
+    }
+    .footer .footer-hizonetal2, .footer .footer-hizonetal3, .footer .footer-hizonetal4{
+        margin-top: 20px;
+    }
+    .footer .footer-img{
+        width: 150px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1025px){
+    .head .logo-item{
+        width: 180px;
+    }
+    .head .head-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .head .menu-item-2{
+        display: none;
+    }
+    .head .close-button{
+        display: block;
+    }
+    /* banner */
+    .banner{
+        margin-top: 96px!important;
+    }
+    /* digital */
+    .digital .digital-item{
+        width: 90%;
+    }
+    .digital .product-item{
+        padding: 30px 0;
+    }
+    /* explore */
+    .explore .explore-item{
+        width: 90%;
+    }
+    .explore .explore-box{
+        width: 250px;
+        margin: 5px;
+    }
+    /* card */
+    .card .card-content{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    /* slide */
+    .slide .slide-item{
+        width: 80%;
+    }
+    .slide .swiper{
+        width: 95%;
+    }
+    /* footer */
+    .footer .footer-img{
+        width: 170px;
+    }
+}
